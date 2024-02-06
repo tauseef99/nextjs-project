@@ -17,7 +17,7 @@ const page = async () => {
         <Link
           key={idx}
           className="server shadow-gray-50 bg-green-600 capitalize text-center rounded text-2xl py-10 cursor-pointer font-bold hover:bg-orange-600 hover:text-white"
-          href={`/types/${area}`}
+          href={`/foodList/${area}`}
         >
           {area}
         </Link>

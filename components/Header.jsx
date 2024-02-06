@@ -22,9 +22,9 @@ export default function Header() {
         <div>
           <Link
             className="bg-blue-500 text-white p-4 text-xs sm:text-lg rounded font-bold"
-            href={recipeID ? `/types/${currentArea}` : "/types"}
+            href={recipeID ? `/foodList/${currentArea}` : "/foodList"}
           >
-            Back to {recipeID ? `${currentArea} recipes` : "recipe types"}
+            Back to {recipeID ? `${currentArea} recipes` : "recipe foodList"}
           </Link>
         </div>
       )}
