@@ -1,8 +1,9 @@
 import React from "react";
 import { TopicList } from "@/components/TopicList";
+import { TopicsList } from "@/components/TopicsList";}
 
 const crudForm = () => {
-  return <TopicList />;
+  return <TopicsList />;
 };
 
 export default crudForm;

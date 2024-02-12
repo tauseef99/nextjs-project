@@ -8,7 +8,7 @@ function layout({ children }) {
         Perform Crud Operation
       </h2>
       <div className="max-w-3xl max-auto bg-emerald-300 ">
-        <Navbar />
+        {/* <Navbar /> */}
       </div>
       {children}
     </>
